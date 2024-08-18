@@ -1,6 +1,6 @@
 # CS463 Virtual Reality Project - Old School RuneScape
 
-Demo Video (raw uncut footage): 
+Demo Video (raw uncut footage): https://youtu.be/45KxsoBPbRY
 Task: Create an immersive VR experience that had interactables, and unique elements that showcases your creativity.
 
 **Note**:
@@ -36,8 +36,19 @@ Task: Create an immersive VR experience that had interactables, and unique eleme
 
 ## Gallery
 
+![Screenshot 2024-08-18 175609](https://github.com/user-attachments/assets/d259515a-3fbb-4edf-b0e3-dc99c9a73a57)
+
+![Screenshot 2024-08-18 175617](https://github.com/user-attachments/assets/7a2ff02e-6ea3-4793-86ba-a8ead334671b)
+
+![Screenshot 2024-08-18 175626](https://github.com/user-attachments/assets/1dd54e22-3200-4cb6-b107-66c687405707)
+
+![Screenshot 2024-08-18 175551](https://github.com/user-attachments/assets/8cf9ffa3-109d-4216-bd5b-3ef455d8baeb)
+
+![Screenshot 2024-08-18 175536](https://github.com/user-attachments/assets/27adbec3-67ea-41a2-96e1-015fac962179)
+
 
 ## Setup
+
 
 ### Method 1: Running locally on your PC
 1. Have Unity Hub and Unity **_2022.3.211f_** installed.
@@ -46,12 +57,16 @@ Task: Create an immersive VR experience that had interactables, and unique eleme
 <p align = "center"><img src = "https://github.com/user-attachments/assets/d23780b5-ef6b-404c-b2fa-6533d29e4aae"</img></p>
 4. Under your "Game" tab, ensure that you are on "Display 8". This will be your main VR camera.
 5. Click the "play" button to start.
+
+
 - Controls (if using PC):
   - Tab = Alternates between and enables viewing, left controller, and right controller control. 
   - Cursor = Look around/move enabled controller.
   - Scroll Wheel = rotate controller (if controller enabled).
+
   - Q/E key = Look left/right.
   - Hold Shift key = left controller enabled.
+
   - Hold Spacebar = right controller enabled.
   - Shift key + W/A/S/D = move around. You can alse press Tab to cycle to the left controller, doing this removes the need to hold the Shift key.
   - Hold Shift/Spacebar + G = if your controller is aiming at an object, this grabs objects. Release G key to drop it.
@@ -69,42 +84,65 @@ Task: Create an immersive VR experience that had interactables, and unique eleme
 - Huge thanks to all the content creators and Discord members who helped a novice like myself through this project, I would not have survived if it wasn't for you all.
 [1] Exporting character models/animations in OSRS -
 https://www.youtube.com/watch?v=Oxi67ouhkjw
+
 [2] Exporting in-game environments in OSRS -
 https://www.youtube.com/watch?v=NhqLDY9QH7k
+
 [3] Useful glTF utility package that allowed me to work with the glTF file format in Unity (Unity 
 package name - com.unity.cloud.gltfast) - https://github.com/atteneder/glTFast
+
 [4] Iterating through BlendShapes to create the illusion of animation -
 https://www.youtube.com/watch?v=sdl-jpZ0NR0
+
 [5] Converting BlendShape keyframes into Unity Animations -
 https://www.youtube.com/watch?v=xbLuYnWofVM&ab_channel=Unreality3D
+
 [5.1] Where to add OVR Interaction Comprehensive in the Hierarchy -
 https://www.youtube.com/watch?v=4kGD8q5kEx8
+
 [6] My post for help on Reddit -
 https://www.reddit.com/r/vrdev/comments/1blug4e/a_desperate_plea_for_help/
+
 [7] Background Music and transition between audios -
 https://www.youtube.com/watch?v=1VXeyeLthdQ
+
 [8] 3D spatial audio for the fountains - https://www.youtube.com/watch?v=LrchScd806w
+
 [9] Making rivers and terrains - https://www.youtube.com/watch?v=BKoplg30egw
+
 [10] Applying Textures to terrains - https://www.youtube.com/watch?v=pKF9-c64NVs
+
 [11] Making invisible materials for 3D objects in URP -
 https://www.youtube.com/watch?v=Afsl_ZCEgKw
+
 [12] Wandering AI for NPCs - Basic Wandering Ai Character 3D - Unity 2023 (script below) 
 (youtube.com)
+
 [13] NavMeshAgent tutorial - https://www.youtube.com/watch?v=CHV1ymlw-P8
+
 [14] NavMeshAgents floating above ground fix - How to fix character floating above the ground 
 when using NavMesh in Unity 3D (youtube.com)
+
 [15] Converting normal existing 3D project into a 3D URP project -
 https://www.youtube.com/watch?v=KpTK-OraZ-g
+
 [16] Deleting .meta files when encountering “associated script cannot be loaded” error -
 General problem with scripts: The associated script cannot be loaded - Unity Forum
+
 [17] Setting up a project with OVR Camera Rig for Meta Quest 3 - Unity Meta Quest 3 Tutorial 
 Lesson 01 Updated - Project Setup (youtube.com)
+
 [17.1] Setting up interaction managers for OVR Camera Rig -
 https://www.youtube.com/watch?v=4kGD8q5kEx8
+
 [17.2] Adding controllers to show up on Meta Quest 3 -
 https://www.youtube.com/watch?v=5vnEedwlOJY
+
 [18] Basic portal functionality - Unity 3D: Creating Basic "Portal" Functionality 
 (youtube.com)
+
 [19] Teleporting a player controller - https://www.youtube.com/watch?v=xmhm5jGwonc
+
 [20] XR Rigs and scaling - Question - XR Rig and Player Scale - Unity Forum
+
 [21] Setting up distance grab for OVR - https://www.youtube.com/watch?v=OaPQPY_wuzk
